@@ -1,0 +1,6 @@
+C:\Users\Pro100Elite\source\repos\A_LvLMod2Less_1\A_LvLMod2Less_1\bin\Debug\A_LvLMod2Less_1.exe.config
+C:\Users\Pro100Elite\source\repos\A_LvLMod2Less_1\A_LvLMod2Less_1\bin\Debug\A_LvLMod2Less_1.exe
+C:\Users\Pro100Elite\source\repos\A_LvLMod2Less_1\A_LvLMod2Less_1\bin\Debug\A_LvLMod2Less_1.pdb
+C:\Users\Pro100Elite\source\repos\A_LvLMod2Less_1\A_LvLMod2Less_1\obj\Debug\A_LvLMod2Less_1.csprojAssemblyReference.cache
+C:\Users\Pro100Elite\source\repos\A_LvLMod2Less_1\A_LvLMod2Less_1\obj\Debug\A_LvLMod2Less_1.exe
+C:\Users\Pro100Elite\source\repos\A_LvLMod2Less_1\A_LvLMod2Less_1\obj\Debug\A_LvLMod2Less_1.pdb
