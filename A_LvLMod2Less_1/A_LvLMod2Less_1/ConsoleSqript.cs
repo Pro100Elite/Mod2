@@ -19,7 +19,7 @@ namespace A_LvLMod2Less_1
 
             while (isMenu)
             {
-                Console.WriteLine("1 - new Person, 2 - Show all Persons, 3 - training ,4 - Exit");
+                Console.WriteLine("1 - new Person, 2 - Show all Persons, 3 - training , 4 - Exit");
                 switch (Console.ReadKey().Key)
                 {
                     case ConsoleKey.D1:
@@ -33,27 +33,19 @@ namespace A_LvLMod2Less_1
                         }
                         count = tryNum;
 
-                        Gum.InToGum(name, count, SelectRoom());
+                        Gum.InToGum(name, count, SelectedRoom());
                         break;
 
                     case ConsoleKey.D2:
                         Console.Clear();
-                        if (Gum.persons.Count != 0)
-                        {
-                            foreach (var pr in Gum.persons)
-                            {
-                                Console.WriteLine(pr.ToString());
-                            }
-                        }
-                        else
-                        {
-                            Console.WriteLine("gym empty");
-                        }
+                        ShowPersons();
                         break;
+                        
 
                     case ConsoleKey.D3:
                         Console.Clear();
                         Gum.Training();
+                        ShowPersons();
                         break;
 
                     case ConsoleKey.D4:
@@ -63,7 +55,29 @@ namespace A_LvLMod2Less_1
             }
         }
 
-        private static string SelectRoom()
+        private static void ShowPersons()
+        {
+            if (Gum.persons.Count != 0)
+            {
+                for (int i = 0; i < Gum.persons.Count; i++)
+                {
+                    if (Gum.persons[i].count == 0)
+                    {
+                        Console.WriteLine($"{Gum.persons[i].ToString()} Finished");
+                    } 
+                    else
+                    {
+                        Console.WriteLine(Gum.persons[i].ToString());
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("gym empty");
+            }
+        }
+
+        private static string SelectedRoom()
         {
             string str;
             Console.WriteLine("1 - foot room, 2 - chest room, 3 - back room");

@@ -28,12 +28,6 @@ namespace A_LvLMod2Less_1
                         persons.RemoveAt(i);
                     }
                 }
-                Console.WriteLine("Complete");
-            }
-            else
-            {
-                Console.Clear();
-                Console.WriteLine("gym empty");
             }
         }
     }
