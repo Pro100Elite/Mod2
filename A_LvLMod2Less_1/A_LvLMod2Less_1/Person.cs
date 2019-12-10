@@ -5,21 +5,21 @@ namespace A_LvLMod2Less_1
     class Person
     {
         public string name;
-        public string rooms;
-        public int count;
-        public Guid guid;
+        public Gum.Rooms rooms;
+        public uint count;
+        private Guid guid;
 
-        public Person(string name, int count, string str)
+        public Person(string name, uint count, Gum.Rooms room)
         {
             this.name = name;
             this.count = count;
-            rooms = str;
+            rooms = room;
             guid = Guid.NewGuid();
         }
 
         public override string ToString()
         {
-            return $"name = {name}, Count = {count}, rooms = {rooms}, Guid = {guid}";
+            return $"name = {name}, Count = {count}, room = {rooms}, Guid = {guid}";
         }
     }
 }

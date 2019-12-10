@@ -12,8 +12,8 @@ namespace A_LvLMod2Less_1
         private static void ConsoleLogic()
         {
             string name;
-            int count;
-            int tryNum;
+            uint count;
+            uint tryNum;
 
             bool isMenu = true;
 
@@ -27,13 +27,13 @@ namespace A_LvLMod2Less_1
                         Console.WriteLine("Input Name");
                         name = Console.ReadLine();
                         Console.WriteLine("Input Count");
-                        while (!int.TryParse(Console.ReadLine(), out tryNum))
+                        while (!uint.TryParse(Console.ReadLine(), out tryNum))
                         {
                             Console.WriteLine("Error format");
                         }
                         count = tryNum;
 
-                        Gum.InToGum(name, count, SelectedRoom());
+                        Gum.InToGum(name, count);
                         break;
 
                     case ConsoleKey.D2:
@@ -63,7 +63,7 @@ namespace A_LvLMod2Less_1
                 {
                     if (Gum.persons[i].count == 0)
                     {
-                        Console.WriteLine($"{Gum.persons[i].ToString()} Finished");
+                        Console.WriteLine($"{Gum.persons[i].ToString()}\n{Gum.persons[i].name} Finished");
                     } 
                     else
                     {
@@ -75,31 +75,6 @@ namespace A_LvLMod2Less_1
             {
                 Console.WriteLine("gym empty");
             }
-        }
-
-        private static string SelectedRoom()
-        {
-            string str;
-            Console.WriteLine("1 - foot room, 2 - chest room, 3 - back room");
-            switch (Console.ReadKey().Key)
-            {
-                case ConsoleKey.D1:
-                    str = "foot room";
-                    break;
-
-                case ConsoleKey.D2:
-                    str = "chest room";
-                    break;
-
-                case ConsoleKey.D3:
-                    str = "back room";
-                    break;
-                default:
-                    str = "warm-up room";
-                    break;
-            }
-            Console.Clear();
-            return str;
         }
     }
 }
