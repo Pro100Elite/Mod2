@@ -8,17 +8,10 @@ namespace A_LvLMod2_Less_2
 {
     class Factory
     {
-        private readonly List<Car> cars = new List<Car>();
+        public readonly List<Car> cars = new List<Car>();
 
-        private Random random = new Random();
 
-        private int countWheel;
-        private int countEngine;
-        private int countSteeringWheel;
-        private int countSeat;
-        private int allDetail = 4;
-
-        public void CreateCar()
+        public void CreateCar( ref int countWheel, ref int countEngine, ref int countSteeringWheel, ref int countSeat)
         {
             Console.Clear();
             int kitWheel = 4;
@@ -47,32 +40,6 @@ kitEngine = {countEngine}/{kitEngine},
 kitSteeringWheel = {countSteeringWheel}/{kitSteeringWheel}, 
 kitSeat = {countSeat}/{kitSeat}");
             }
-        }
-
-        public void RandomDetail()
-        {
-            Console.Clear();
-
-            switch (random.Next(0, allDetail))
-            {
-                case 0:
-                    Wheel wheel = new Wheel();
-                    countWheel++;
-                    break;
-                case 1:
-                    Engine engine = new Engine();
-                    countEngine++;
-                    break;
-                case 2:
-                    SteeringWheel steeringWheel = new SteeringWheel();
-                    countSteeringWheel++;
-                    break;
-                case 3:
-                    Seat seat = new Seat();
-                    countSeat++;
-                    break;
-            }
-            Console.WriteLine("Created  Random Details");
         }
     }
 }

@@ -11,18 +11,20 @@ namespace A_LvLMod2_Less_2
         static void Main(string[] args)
         {
             Factory factory = new Factory();
+            ProviderDetails provider = new ProviderDetails();
 
             bool isMenu = true;
 
             var commands = new Dictionary<ConsoleKey, ICommand>
             {
-                [ConsoleKey.D1] = new CreateCarCommand(factory),
-                [ConsoleKey.D2] = new CreatDetailsCommand(factory),
+                [ConsoleKey.D1] = new CreateCarCommand(factory, provider),
+                [ConsoleKey.D2] = new CreatDetailsCommand(provider),
+                [ConsoleKey.D3] = new ShowCompleteCars(factory)
             };
 
             while (isMenu)
             {
-                Console.WriteLine("Press 1 - Create Car, 2 - Create Random Details, Escape - Exit");
+                Console.WriteLine("Press 1 - Create Car, 2 - Create Random Details, 3 - Show All Complete Cars, Escape - Exit");
                 var key = Console.ReadKey().Key;
 
                 if (!commands.ContainsKey(key))

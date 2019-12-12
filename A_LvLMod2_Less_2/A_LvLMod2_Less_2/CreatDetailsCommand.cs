@@ -8,16 +8,16 @@ namespace A_LvLMod2_Less_2
 {
     class CreatDetailsCommand: Command
     {
-        protected Factory factory;
+        protected ProviderDetails provider;
 
-        public CreatDetailsCommand(Factory factory)
+        public CreatDetailsCommand(ProviderDetails provider)
         {
-            this.factory = factory;
+            this.provider = provider;
         }
 
         protected override void InternalLogic()
         {
-            factory.RandomDetail();
+            provider.RandomDetail();
         }
     }
 }

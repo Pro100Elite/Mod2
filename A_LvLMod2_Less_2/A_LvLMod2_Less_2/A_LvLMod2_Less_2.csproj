@@ -52,7 +52,9 @@
     <Compile Include="ICommand.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProviderDetails.cs" />
     <Compile Include="Seat.cs" />
+    <Compile Include="ShowCompleteCars.cs" />
     <Compile Include="SteeringWheel.cs" />
     <Compile Include="Wheel.cs" />
   </ItemGroup>

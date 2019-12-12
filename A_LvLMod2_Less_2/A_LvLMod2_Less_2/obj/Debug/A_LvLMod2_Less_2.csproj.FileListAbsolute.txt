@@ -4,3 +4,9 @@ C:\Users\Pro100Elite\source\repos\A_LvLMod2_Less_2\A_LvLMod2_Less_2\bin\Debug\A_
 C:\Users\Pro100Elite\source\repos\A_LvLMod2_Less_2\A_LvLMod2_Less_2\bin\Debug\A_LvLMod2_Less_2.pdb
 C:\Users\Pro100Elite\source\repos\A_LvLMod2_Less_2\A_LvLMod2_Less_2\obj\Debug\A_LvLMod2_Less_2.exe
 C:\Users\Pro100Elite\source\repos\A_LvLMod2_Less_2\A_LvLMod2_Less_2\obj\Debug\A_LvLMod2_Less_2.pdb
+C:\Users\Pro100Elite\source\Mod2\A_LvLMod2_Less_2\A_LvLMod2_Less_2\bin\Debug\A_LvLMod2_Less_2.exe.config
+C:\Users\Pro100Elite\source\Mod2\A_LvLMod2_Less_2\A_LvLMod2_Less_2\bin\Debug\A_LvLMod2_Less_2.exe
+C:\Users\Pro100Elite\source\Mod2\A_LvLMod2_Less_2\A_LvLMod2_Less_2\bin\Debug\A_LvLMod2_Less_2.pdb
+C:\Users\Pro100Elite\source\Mod2\A_LvLMod2_Less_2\A_LvLMod2_Less_2\obj\Debug\A_LvLMod2_Less_2.csprojAssemblyReference.cache
+C:\Users\Pro100Elite\source\Mod2\A_LvLMod2_Less_2\A_LvLMod2_Less_2\obj\Debug\A_LvLMod2_Less_2.exe
+C:\Users\Pro100Elite\source\Mod2\A_LvLMod2_Less_2\A_LvLMod2_Less_2\obj\Debug\A_LvLMod2_Less_2.pdb

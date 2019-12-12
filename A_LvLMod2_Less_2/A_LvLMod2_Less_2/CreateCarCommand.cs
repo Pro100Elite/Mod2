@@ -10,15 +10,17 @@ namespace A_LvLMod2_Less_2
     {
 
         protected Factory factory;
+        protected ProviderDetails provider;
 
-        public CreateCarCommand(Factory factory)
+        public CreateCarCommand(Factory factory, ProviderDetails provider)
         {
             this.factory = factory;
+            this.provider = provider;
         }
 
         protected override void InternalLogic()
         {
-            factory.CreateCar();
+            factory.CreateCar( ref provider.countWheel, ref provider.countEngine, ref provider.countSteeringWheel, ref provider.countSeat);
         }
     }
 }
