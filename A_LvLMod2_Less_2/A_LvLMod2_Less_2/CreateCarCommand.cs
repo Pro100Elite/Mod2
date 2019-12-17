@@ -20,7 +20,7 @@ namespace A_LvLMod2_Less_2
 
         protected override void InternalLogic()
         {
-            factory.CreateCar( ref provider.countWheel, ref provider.countEngine, ref provider.countSteeringWheel, ref provider.countSeat);
+            factory.CreateCar(provider);
         }
     }
 }

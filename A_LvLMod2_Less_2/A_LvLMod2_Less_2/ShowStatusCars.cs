@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace A_LvLMod2_Less_2
 {
-    class ShowCompleteCars: Command
+    class ShowStatusCars: Command
     {
         protected Factory factory;
 
-        public ShowCompleteCars(Factory factory)
+        public ShowStatusCars(Factory factory)
         {
             this.factory = factory;
         }
@@ -18,6 +18,7 @@ namespace A_LvLMod2_Less_2
         protected override void InternalLogic()
         {
             Console.Clear();
+            factory.Prices();
             if (factory.cars.Count > 0)
             {
                 foreach (var cars in factory.cars)
@@ -29,6 +30,7 @@ namespace A_LvLMod2_Less_2
             {
                 Console.WriteLine("Not created");
             }
+            Console.WriteLine($"MoneyExpected ={factory.moneyExpected}$\nMoneyReceived = {factory.moneyReceived}$");
         }
     }
 }

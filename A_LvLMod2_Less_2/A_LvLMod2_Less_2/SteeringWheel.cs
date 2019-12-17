@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace A_LvLMod2_Less_2
 {
-    class SteeringWheel
+    class SteeringWheel : Detail
     {
+        public SteeringWheel(int price) : base(price)
+        {
+
+        }
     }
 }

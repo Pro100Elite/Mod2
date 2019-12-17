@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace A_LvLMod2_Less_2
 {
-    class Engine
+    class Engine : Detail
     {
-
+        public Engine(int price) : base(price)
+        {
+        }
     }
 }

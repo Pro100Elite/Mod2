@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace A_LvLMod2_Less_2
 {
-    class Wheel : Detail
+    abstract class Detail
     {
-        public Wheel(int price) : base(price)
+        public int Price { get; }
+
+        public Detail(int price)
         {
+            Price = price;
 
         }
     }

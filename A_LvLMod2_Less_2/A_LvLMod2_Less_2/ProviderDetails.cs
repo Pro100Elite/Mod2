@@ -9,11 +9,13 @@ namespace A_LvLMod2_Less_2
     class ProviderDetails
     {
         private Random random = new Random();
+        public Detail detail { get; set; }
+        public  List<Detail> wheels = new List<Detail>();
+        public  List<Detail> engines = new List<Detail>();
+        public  List<Detail> steeringWheel = new List<Detail>();
+        public  List<Detail> seates = new List<Detail>();
+        //public static List<Detail> details = new List<Detail>();
 
-        public int countWheel;
-        public int countEngine;
-        public int countSteeringWheel;
-        public int countSeat;
         public int allDetail = 4;
 
         public void RandomDetail()
@@ -23,20 +25,20 @@ namespace A_LvLMod2_Less_2
             switch (random.Next(0, allDetail))
             {
                 case 0:
-                    Wheel wheel = new Wheel();
-                    countWheel++;
+                    detail = new Wheel(5);
+                    wheels.Add(detail);
                     break;
                 case 1:
-                    Engine engine = new Engine();
-                    countEngine++;
+                    detail = new Engine(100);
+                    engines.Add(detail);
                     break;
                 case 2:
-                    SteeringWheel steeringWheel = new SteeringWheel();
-                    countSteeringWheel++;
+                    detail = new SteeringWheel(10);
+                    steeringWheel.Add(detail);
                     break;
                 case 3:
-                    Seat seat = new Seat();
-                    countSeat++;
+                    detail = new Seat(20);
+                    seates.Add(detail);
                     break;
             }
             Console.WriteLine("Created  Random Details");
