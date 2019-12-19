@@ -1,0 +1,6 @@
+C:\Users\Pro100Elite\source\repos\BeaverInTheTrash\BeaverInTheTrash\bin\Debug\BeaverInTheTrash.exe.config
+C:\Users\Pro100Elite\source\repos\BeaverInTheTrash\BeaverInTheTrash\bin\Debug\BeaverInTheTrash.exe
+C:\Users\Pro100Elite\source\repos\BeaverInTheTrash\BeaverInTheTrash\bin\Debug\BeaverInTheTrash.pdb
+C:\Users\Pro100Elite\source\repos\BeaverInTheTrash\BeaverInTheTrash\obj\Debug\BeaverInTheTrash.csprojAssemblyReference.cache
+C:\Users\Pro100Elite\source\repos\BeaverInTheTrash\BeaverInTheTrash\obj\Debug\BeaverInTheTrash.exe
+C:\Users\Pro100Elite\source\repos\BeaverInTheTrash\BeaverInTheTrash\obj\Debug\BeaverInTheTrash.pdb
