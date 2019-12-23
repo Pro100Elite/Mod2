@@ -1,0 +1,6 @@
+C:\Users\Pro100Elite\source\Mod2\ClassroomAdmin\ClassroomAdmin\bin\Debug\ClassroomAdmin.exe.config
+C:\Users\Pro100Elite\source\Mod2\ClassroomAdmin\ClassroomAdmin\bin\Debug\ClassroomAdmin.exe
+C:\Users\Pro100Elite\source\Mod2\ClassroomAdmin\ClassroomAdmin\bin\Debug\ClassroomAdmin.pdb
+C:\Users\Pro100Elite\source\Mod2\ClassroomAdmin\ClassroomAdmin\obj\Debug\ClassroomAdmin.csprojAssemblyReference.cache
+C:\Users\Pro100Elite\source\Mod2\ClassroomAdmin\ClassroomAdmin\obj\Debug\ClassroomAdmin.exe
+C:\Users\Pro100Elite\source\Mod2\ClassroomAdmin\ClassroomAdmin\obj\Debug\ClassroomAdmin.pdb
