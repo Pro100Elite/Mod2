@@ -8,6 +8,10 @@ namespace ClassroomAdmin
 {
     class Student : Person
     {
+        public Student(string name) : base(name)
+        {
+        }
+
         public override void InToTheRoom(List<ClassRoom> rooms)
         {
             base.InToTheRoom(rooms);

@@ -16,8 +16,6 @@ namespace ClassroomAdmin
         {
             Admin admin = new Admin();
 
-            CreatedFourRooms();
-
             var commands = new Dictionary<ConsoleKey, ICommand>()
             {
                 [ConsoleKey.D1] = new AskAdmincs(classRooms, admin),
@@ -26,6 +24,8 @@ namespace ClassroomAdmin
                 [ConsoleKey.D4] = new StatusRooms(classRooms),
                 [ConsoleKey.Escape] = new Exit()
             };
+
+            CreatedFourRooms(commands);
 
             while (isMenu)
             {
@@ -45,7 +45,7 @@ namespace ClassroomAdmin
             }
         }
 
-        public static void CreatedFourRooms()
+        public static void CreatedFourRooms(Dictionary<ConsoleKey, ICommand> command1)
         {
             ClassRoom room1 = new ClassRoom();
             classRooms.Add(room1);
@@ -55,6 +55,8 @@ namespace ClassroomAdmin
             classRooms.Add(room3);
             ClassRoom room4 = new ClassRoom();
             classRooms.Add(room4);
+            var selectCommand = command1[ConsoleKey.D1];
+            selectCommand.Act();
         }
     }
 }

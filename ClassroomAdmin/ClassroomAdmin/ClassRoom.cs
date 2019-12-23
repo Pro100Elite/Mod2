@@ -9,6 +9,7 @@ namespace ClassroomAdmin
     class ClassRoom
     {
         public int Roominess { get; private set; }
+        public bool IsTeacher = false;
 
         public List<Person> people = new List<Person>();
 
@@ -18,6 +19,11 @@ namespace ClassroomAdmin
             {
                 Roominess = admin.Set();
             }
+        }
+
+        public void GetTeacher()
+        {
+            IsTeacher = true;
         }
     }
 }

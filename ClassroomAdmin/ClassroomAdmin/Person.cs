@@ -8,6 +8,12 @@ namespace ClassroomAdmin
 {
     abstract class Person
     {
+        protected ClassRoom selectRoom;
+
+        public Person(string name)
+        {
+            Name = name;
+        }
         public string Name { get; private set; }
 
         public virtual void InToTheRoom(List<ClassRoom> rooms)
@@ -26,8 +32,15 @@ namespace ClassroomAdmin
             if (commands.ContainsKey(key))
             {
                 Console.Clear();
-                var selectRoom = commands[key];
-                selectRoom.people.Add(this);
+                selectRoom = commands[key];
+                if (selectRoom.people.Count() < selectRoom.Roominess)
+                {
+                    selectRoom.people.Add(this);
+                }
+                else
+                {
+                    Console.WriteLine("there are no places");
+                }
             }
             else
             {

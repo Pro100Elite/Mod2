@@ -8,9 +8,42 @@ namespace ClassroomAdmin
 {
     class Teacher : Person
     {
+
+        public Teacher(string name) : base(name)
+        {
+        }
+
         public override void InToTheRoom(List<ClassRoom> rooms)
         {
-            base.InToTheRoom(rooms);
+            var commands = new Dictionary<ConsoleKey, ClassRoom>()
+            {
+                [ConsoleKey.D1] = rooms[0],
+                [ConsoleKey.D2] = rooms[1],
+                [ConsoleKey.D3] = rooms[2],
+                [ConsoleKey.D4] = rooms[3],
+            };
+
+            Console.WriteLine("\nPress 1 - Room1 2 - Room2, 3 - Room3, 4 - Room4\n");
+            var key = Console.ReadKey().Key;
+
+            if (commands.ContainsKey(key))
+            {
+                Console.Clear();
+                selectRoom = commands[key];
+                if (selectRoom.people.Count() <= selectRoom.Roominess & !selectRoom.IsTeacher)
+                {
+                    selectRoom.people.Add(this);
+                    selectRoom.IsTeacher = true;
+                }
+                else
+                {
+                    Console.WriteLine("There is a teacher");
+                }
+            }
+            else
+            {
+                Console.Clear();
+            }
         }
     }
 }

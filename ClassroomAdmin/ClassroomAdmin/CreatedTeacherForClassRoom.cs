@@ -14,13 +14,12 @@ namespace ClassroomAdmin
         public CreatedTeacherForClassRoom(List<ClassRoom> classRooms)
         {
             this.classRooms = classRooms;
-            teacher = new Teacher();
         }
 
         protected override void InternalLogic()
         {
             Console.Write("Input Name Teacher = ");
-            Name = Console.ReadLine();
+            teacher = new Teacher(Console.ReadLine());
             Console.Write("Select Room: ");
             teacher.InToTheRoom(classRooms);
         }
