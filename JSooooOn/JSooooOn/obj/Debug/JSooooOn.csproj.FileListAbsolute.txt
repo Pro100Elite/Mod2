@@ -1,0 +1,9 @@
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\bin\Debug\JSooooOn.exe.config
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\bin\Debug\JSooooOn.exe
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\bin\Debug\JSooooOn.pdb
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\obj\Debug\JSooooOn.csprojAssemblyReference.cache
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\obj\Debug\JSooooOn.csproj.CopyComplete
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\obj\Debug\JSooooOn.exe
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\obj\Debug\JSooooOn.pdb
