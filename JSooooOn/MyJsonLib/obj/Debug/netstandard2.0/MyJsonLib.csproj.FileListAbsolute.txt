@@ -1,0 +1,8 @@
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\MyJsonLib\bin\Debug\netstandard2.0\MyJsonLib.deps.json
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\MyJsonLib\bin\Debug\netstandard2.0\MyJsonLib.dll
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\MyJsonLib\bin\Debug\netstandard2.0\MyJsonLib.pdb
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\MyJsonLib\obj\Debug\netstandard2.0\MyJsonLib.csprojAssemblyReference.cache
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\MyJsonLib\obj\Debug\netstandard2.0\MyJsonLib.AssemblyInfoInputs.cache
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\MyJsonLib\obj\Debug\netstandard2.0\MyJsonLib.AssemblyInfo.cs
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\MyJsonLib\obj\Debug\netstandard2.0\MyJsonLib.dll
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\MyJsonLib\obj\Debug\netstandard2.0\MyJsonLib.pdb

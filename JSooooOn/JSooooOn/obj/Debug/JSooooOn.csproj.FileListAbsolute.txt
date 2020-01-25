@@ -7,3 +7,5 @@ C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\obj\Debug\JSooooOn.csprojAsse
 C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\obj\Debug\JSooooOn.csproj.CopyComplete
 C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\obj\Debug\JSooooOn.exe
 C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\obj\Debug\JSooooOn.pdb
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\bin\Debug\MyJsonLib.dll
+C:\Users\Pro100Elite\source\Mod2\JSooooOn\JSooooOn\bin\Debug\MyJsonLib.pdb

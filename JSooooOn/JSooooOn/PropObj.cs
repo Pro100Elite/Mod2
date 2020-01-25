@@ -9,5 +9,9 @@ namespace JSooooOn
     public class PropObj
     {
         public int NumberRand { get; set; }
+        [MyAtribut]
+        public int Number { get; set; }
+        [MyAtribut]
+        public string NumberRandstr { get; set; }
     }
 }
